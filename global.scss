@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+button{
+  border: none;
+  cursor: pointer;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background: #E5E5E5;
+
+}
+body.dark {
+  background: rgba(255, 255, 255, 0.66);
+  color: #fff;
+  transition: .5s;
+}

@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Serif+Pro:wght@200;300;400;600;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+@import "global";
+@import "mixin";
+@import "weraibles";
+
+
+#header{
+  padding: 40px 0;
+  .header{
+    @include center();
+    &--car{
+      h2{
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color:$reb;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+      }
+    }
+    &--href{
+      a{
+        margin: 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        align-items: center;
+        color:$reb;
+        flex: none;
+      }
+      button{
+        @include btnTw();
+      }
+    }
+  }
+}
+
+#hero{
+  padding: 70px 0;
+  background: url("/img/122.svg");
+  .hero{
+    &--bid{
+      h2{
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 128px;
+        text-align: center;
+        color:$bl;
+      }
+      span{
+        font-weight: 400;
+        font-size: 120px;
+        line-height: 128px;
+        align-items: flex-end;
+        text-align: center;
+        background: linear-gradient(180deg, #0B4141 45.83%, #0B1F1F 45.84%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+
+#alt{
+  padding: 100px 0;
+  background: url("/img/bab.svg");
+  .alt{
+    &--work{
+      h3{
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        text-align: center;
+        color: $car;
+        mix-blend-mode: normal;
+        flex: none;
+      }
+      p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color:$car;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+  }
+}
+
+#enter{
+  padding: 100px 0;
+  background: #0B4141;
+  .enter{
+    @include center();
+    &--too{
+      h2{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color:$bl;
+        flex: none;
+        padding: 20px 0;
+      }
+      p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color:$bl;
+        flex: none;
+        order: 1;
+      }
+      button{
+        @include btn();
+      }
+    }
+  }
+}
+
+#email{
+  .email{
+    @include center();
+    &--toto{
+      h2{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: $bl;
+        flex: none;
+        order: 0;
+      }
+      p{
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: $reb;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+    &--more{
+      @include spece();
+      h3{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        color: $reb;
+        flex: none;
+      }
+    }
+    &--tot{
+      h2{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        color: $reb;
+        flex: none;
+        order: 0;
+      }
+      p{
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        color: $reb;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+
+  }
+}
+
+#todo{
+  padding: 100px 0;
+  .todo{
+    &--lenovo{
+      //background: url("/img/bab.svg");
+      h2{
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 96px;
+        text-align: center;
+        color: $bl;
+        mix-blend-mode: normal;
+        flex: none;
+      }
+      p{
+        padding: 20px 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: $reb;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+      }
+    }
+  }
+}
+
+#home{
+  padding: 100px 0;
+  background: rgba(169, 63, 63, 0.22);
+  .home{
+    &--car{
+      h3{
+        font-weight: 900;
+        font-size: 68px;
+        line-height: 72px;
+        text-align: center;
+        color: $car;
+        flex: none;
+      }
+    }
+    &--ate{
+      width: 304px;
+      height: 158px;
+      background: #FFFFFF;
+    }
+    &--sold{
+      p{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        color: $reb;
+        align-self: stretch;
+      }
+    }
+    &--ctrl{
+      @include spece();
+      h4{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: $reb;
+        flex: none;
+        flex-grow: 1;
+      }
+      span{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #031e1e;
+        flex: none;
+        flex-grow: 1;
+      }
+    }
+  }
+}
